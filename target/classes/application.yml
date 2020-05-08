@@ -5,10 +5,10 @@ spring:
   profiles:
     active: 测试
   datasource:
-    password: b4%Pd3^o12
-    url: jdbc:mysql://rm-2ze693cvfg8u8k6s5mo.mysql.rds.aliyuncs.com/mallsysdb
+    name:
+    password:
+    url: rm-2ze693cvfg8u8k6s5mo.mysql.rds.aliyuncs.com
     driver-class-name: com.mysql.jdbc.Driver
-    data-username: root
 
   redis:
     host: 39.96.28.20
